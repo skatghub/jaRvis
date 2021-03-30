@@ -16,8 +16,7 @@ cout<<"welcom to jaRvis caLcuLator\n";
 cout<<"Enter the numbers for calculation\n"; 
 cout<<"Enter A="; 
 cin>>a; 
-cout<<"\n 
-Enter B="; 
+cout<<"\nEnter B="; 
 cin>>b; 
 cout<<Choose your operation\n"; 
 cout<<"1-for Addition\n 2-for Substraction\n 3-for Multiplication\n 4-for Division\n 5-for Exponential\n"; 
@@ -25,16 +24,19 @@ cin>>c;
 if(0>=c||c>=6) 
 {cout"Not a valid operation, please enter a valid operation"; 
 cin>>c; } 
-switch(c) case 1: add(a,b); 
+
+switch(c) 
+case 1: add(a,b); 
 Break; 
 case 2: sub(a,b); 
 Break; 
 case 3: mul(a,b); 
 Break; 
 case 4: div(a,b); 
-Break; case 5: pow(a,b);
+Break; 
+case 5: pow(a,b);
 
-cout<<"The result is="<<res; 
+cout<<"The result is = "<<res; 
 
 getch();
 
